@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://devbith.github.io/sitemap.xml

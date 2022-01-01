@@ -1,0 +1,99 @@
+.work-timeline {
+    display: flex;
+}
+.tab {
+    float: left;
+    width: max-content;
+    margin-right: 20px;
+}
+
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: var(--text-color);
+    padding: 14px 16px;
+    width: 100%;
+    border: none;
+    border-left: 3px solid #80808061;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button:hover {
+    background-color: var(--bg-color-one);
+    font-weight: 500;
+}
+
+.tab button.active {
+    color: var(--text-color);
+    border-left: 3px solid var(--link-color);
+}
+
+.tab-content {
+    float: left;
+    padding: 0 12px;
+    width: max-content;
+    margin-top: 10px;
+}
+
+.job-start-date {
+    padding-bottom: 13px;
+    padding-top: 3px;
+    font-size: 14px;
+    font-family: var(--font-mono);
+}
+
+.tab-content li {
+    margin-bottom: 5px;
+    position: relative;
+    padding-left: 20px;
+    list-style: none;
+}
+
+.tab-content li::before {
+    content: "▹";
+    position: absolute;
+    left: 0px;
+    color: var(--link-color);
+}
+
+.tech-used {
+    font-family: var(--font-mono);
+    font-size: 12px;
+}
+
+
+
+.certification img {
+     margin-right: 20px;
+}
+.certification li {
+    display: flex;
+    list-style: none;
+}
+
+.certification li a {
+    margin-left: 15px;
+    padding-top: 10px;
+    font-family: var(--font-mono);
+
+}
+
+.oracle-logo {
+    width: 90px;
+    height: 58px;
+    padding-bottom: 10px;
+}
+
+.coding-ninja-logo {
+    width: 80px;
+    height: 47px;
+    background-color: #032d6b;
+    padding: 4px;
+    margin-bottom: 10px;
+
+}
+

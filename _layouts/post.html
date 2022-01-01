@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{page.title}}</title>
+    {% seo %}
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{site.url}}/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/post.css">
+    <link rel="stylesheet" href="{{site.url}}/assets/css/highlight-min.css"/>
+
+</head>
+<body class="dark-mode">
+
+{% include navigation.html %}
+
+
+<div class="main-container bg-color-two">
+    <main class="container">
+        <div class="main-section post">
+            <article>
+                <h1 class="post-title"> <a href="">{{page.title }}</a>  </h1>
+                <p class="post-date">{{ page.date | date: "%-d %B %Y"}}</p>
+                {{ content }}
+            </article>
+        </div>
+        <div class="side-category">
+            {% include category-sidebar.html %}
+        </div>
+    </main>
+</div>
+
+{% include footer.html %}
+
+<script src="{{site.url}}/assets/js/script.js"></script>
+<script src="{{site.url}}/assets/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>
