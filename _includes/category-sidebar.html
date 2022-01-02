@@ -1,12 +1,13 @@
-<h4>Posts by category </h4>
-<ul>
 
-    {% for category in site.categories  %}
-    <li>
-        <a href="{{site.baseurl}}/category/{{category[0]}}">
-            <span class="category-title"> {{ category[0] }}</span>
-            <span class="category-count">{{category[1].size}}</span>
-        </a>
-    </li>
-    {% endfor %}
-</ul>
+    <h4>Posts by category </h4>
+    <ul>
+
+        {% for category in site.categories  %}
+        <li>
+            <a href="{{site.baseurl}}/category/{{category[0]}}">
+                <span class="category-title"> {{ category[0] }}</span>
+                <span class="category-count">{{category[1].size}}</span>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>

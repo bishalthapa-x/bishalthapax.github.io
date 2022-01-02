@@ -189,8 +189,8 @@ main {
     border-radius: 3px;
     background-color: var(--bg-color-one);
     height: fit-content;
-
 }
+
 .side-category h4 {
     padding:7px 0px;
 }
@@ -289,8 +289,10 @@ footer {
     .main-section, side-category {
         width: 100%;
     }
-
     . {
+        display: grid;
+    }
+    .side-category {
         display: grid;
     }
 
