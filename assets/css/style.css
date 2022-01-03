@@ -289,11 +289,8 @@ footer {
     .main-section, side-category {
         width: 100%;
     }
+
     . {
-        display: grid;
-    }
-    .side-category {
-        margin-top: 10px;
         display: grid;
     }
 
