@@ -25,6 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   stuffs, mostly  on software development which I find interesting. Thanks for coming over.
 baseurl: ""
 url: "https://devbith.github.io"
+liveUrl: "https://devbith.github.io"
 twitter_username: devbith
 github_username:  devbith
 
