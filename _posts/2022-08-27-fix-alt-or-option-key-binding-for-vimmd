@@ -10,5 +10,13 @@ Let's fix `Alt/Option` key binding and use it along with some other keys to exec
 ~ $ cat
 ^[f
 ```
-Pressing  `Alt + →` printed following `^[f` character in the terminal.
+Pressing  `Alt + →` printed following `^[f` character in the terminal. Here character `^[` is a iteral escape character and character `f` is used 
+simulates right arrow, basically `Alt + →` and `Alt + f` is the same, verify that running `cat` command again and press `Alt + f` the output will be the same.
 
+Now, we know that character `f` is used for right arrow. Let's make some vim keybinding the.
+
+Open vim configuration file `.vimrc` and add the following.
+```
+exec "set <M-f>=\ef"
+map <M-f> gt
+```
