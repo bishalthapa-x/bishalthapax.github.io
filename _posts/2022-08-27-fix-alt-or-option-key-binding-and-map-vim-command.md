@@ -20,4 +20,4 @@ exec "set <M-f>=\ef"
 map <M-f> gt
 ```
 
-The preceding code tells vim to recognize the escape-sequence as a Meta-character and maps the Meta-character with the vim command `gt` open next tab. We have fixed the meta key (Alt/Option) keybinding with the right arrow `Alt + →`. To fix all the character bindings along with Meta key <a href="https://vim.fandom.com/">Vim Tips Wiki</a> has a very good article <a href="https://vim.fandom.com/wiki/Fix_meta-keys_that_break_out_of_Insert_mode">(Fix meta-key) </a>
+The preceding code tells vim to recognize the escape-sequence as a Meta-character and maps the Meta-character with the vim command `gt` open next tab. We have fixed the meta key (Alt/Option) keybinding with the right arrow `Alt + →`. To fix all the character bindings along with Meta key <a href="https://vim.fandom.com/">Vim Tips Wiki</a> has a very good article <a href="https://vim.fandom.com/wiki/Fix_meta-keys_that_break_out_of_Insert_mode">(Fix meta-key) </a>, check it out.
