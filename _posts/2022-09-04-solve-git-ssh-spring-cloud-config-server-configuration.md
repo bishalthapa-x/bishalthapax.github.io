@@ -5,4 +5,4 @@ date:   2022-09-04 16:01:12 +2300
 categories: spring git
 ---
 
-Spring Cloud Config makes it possible to centralize and externalize configuration properties services in a distributed system. 
+Spring Cloud Config Server makes it possible to centralize and externalize configuration properties services in a distributed system. 
