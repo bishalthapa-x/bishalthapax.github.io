@@ -1,6 +1,6 @@
 ---
 title: Category for Spring
 layout: category-archive
-type: vim
+type: spring
 permalink: /category/spring
 ---
