@@ -10,7 +10,9 @@ Spring Cloud Config Server makes it possible to centralize and externalize confi
 
 As I was making a Git backed configuration, 
 
- `spring.cloud.config.server.git.uri=git@github.com:devbith/spring-cloud-example-project01-configs.git`
+ ```
+spring.cloud.config.server.git.uri=git@github.com:devbith/spring-cloud-example-project01-configs.git
+```
 
 
 I encounter few issues like `invalid privatekey: [B@1324409e` and `RSA key with SHA-1, which is no longer allowed`
