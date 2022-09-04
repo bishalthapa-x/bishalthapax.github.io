@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Fix Alt or Option key binding and map Vim command"
+title:  "Solve Alt or Option Key Binding And Map Vim Command With It"
 date:   2022-08-27 18:07:32 +0200
 categories: vim
 ---
 
-Let's fix `Alt/Option` Meta (M) key binding and use it along with some other keys to execute vim commands. First of all, we need to find what characters the terminal is sending when `Alt/Option` key is pressed along with other key. To find that, execute the `cat` command and press `Alt` key with the key you want. In this example, I am going to press  `Alt` along with right arrow `Alt + →`
+Let's solve `Alt/Option` Meta (M) key binding and use it along with some other keys to execute vim commands. First of all, we need to find what characters the terminal is sending when `Alt/Option` key is pressed along with other key. To find that, execute the `cat` command and press `Alt` key with the key you want. In this example, I am going to press  `Alt` along with right arrow `Alt + →`
 ```
 ~ $ cat
 ^[f
