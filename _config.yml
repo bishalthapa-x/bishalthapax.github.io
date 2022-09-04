@@ -45,8 +45,7 @@ paginate_path: "/blog/page/:num"
 # https://highlightjs.org/usage/
 markdown: kramdown
 highlighter: rouge
-input: GFM
-syntax_highlighter: rouge
+
 
 # custom archive
 collections:
