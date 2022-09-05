@@ -240,50 +240,20 @@ main {
 
 /* ----------------  footer ----------------  */
 footer {
-    padding: 30px 0px;
+    padding: 8px 0px;
 }
 
-
-.footer-box {
-    display: flex;
-    flex-wrap: wrap;
+.email-list  {
+    display: inline-flex;
     gap: 10px;
+    list-style: none;
 }
 
-.footer-box-unit {
-    flex: 1 1 auto;
-}
-
-.footer-box-third-unit {
-    flex: 1 1 40%;
-}
-
-.footer-box-unit a {
+.email-list li a {
     color: var(--blue-color);
     text-decoration: none;
 }
 
-.footer-box-unit ul li a:hover {
-    text-decoration: underline;
-}
-
-.footer-box-first-unit ul li {
-    list-style: none;
-}
-
-.social-media-link ul li   {
-    list-style: none;
-}
-
-.social-media-link ul li a  {
-    margin-right: 42px;
-    position: relative;
-    top: -9px;
-}
-
-.github-icon {
-    fill: var(--text-color);
-}
 pre {
     word-break: break-all;
 }
