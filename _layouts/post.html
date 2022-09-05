@@ -1,7 +1,7 @@
 
 {% include header.html %}
 <link rel="stylesheet" href="/assets/css/post.css">
-<link rel="stylesheet" href="{{site.url}}/assets/css/highlight-min.css"/>
+
 
 {% include navigation.html %}
 
@@ -12,18 +12,15 @@
             <article>
                 <h1 class="post-title"> <a href="">{{page.title }}</a>  </h1>
                 <p class="post-date">{{ page.date | date: "%-d %B %Y"}}</p>
+                <div>
                 {{ content }}
+                </div>
             </article>
         </div>
-        <div class="side-category">
-            {% include category-sidebar.html %}
-        </div>
+
     </main>
 </div>
 
-
-<script src="{{site.url}}/assets/js/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
 
 {% include footer.html %}
 

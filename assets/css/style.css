@@ -3,7 +3,7 @@
 :root {
     --bg-color-one: #f5f5f5;
     --bg-color-two: #ffff;
-    --text-color: #000000d4;
+    --text-color: #555;
     --post-title-color: black;
     --font-mono: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
     --font-robot-sans: "Roboto", sans-serif;
@@ -14,7 +14,8 @@
     --bg-color-one: #212121;
     --bg-color-two: #2b2b2b;
     --text-color: #c0c0c0;
-    --post-title-color: #fc0;
+    --post-title-color: #fc0i;
+    --post-title-color: #fc0i;
 }
 
 h1,
@@ -34,8 +35,8 @@ body {
     min-height: 100vh;
     flex-direction: column;
     font-family: var(--font-robot-sans);
-    font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.7;
+    font-size: larger;
     background-color: var(--bg-color-one);
     color: var(--text-color);
 }
@@ -278,6 +279,9 @@ footer {
 .github-icon {
     fill: var(--text-color);
 }
+pre {
+    word-break: break-all;
+}
 
 @media (max-width:620px) {
     .search-box {
@@ -314,4 +318,24 @@ footer {
 
 .post  a:hover {
     text-decoration: underline;
+}
+
+
+
+code {
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.language-plaintext {
+    background-color: #49483e;
+    color: white;
+}
+.highlight {
+    border-radius: 5px;
+}
+
+pre {
+    word-break: break-all;
+    white-space: pre-wrap;
 }
