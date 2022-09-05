@@ -164,7 +164,12 @@ main {
 }
 
 .post-list li:not(:first-child) {
-    padding-top: 30px;
+    padding-top: 10px;
+}
+
+.post-list .post-date {
+    margin: 0px;
+    padding: 0px;
 }
 
 .post-list li span {
@@ -296,10 +301,16 @@ pre {
 
 }
 
-
 .post {
     --link-color: #2a7ae2;
     margin-bottom: 25%;
+}
+.post-page {
+    margin-top: 2%;
+}
+
+.post-page .post-date {
+    margin-bottom: 3%;
 }
 
 .dark-mode  .post {
