@@ -1,22 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
 :root {
-    --bg-color-one: #fafafa;
-    --bg-color-two: #ffff;
+    --bg-color-one: #11346ef7;
+    --bg-color-two: white;
+    --bg-color-three: #e8efef;
     --text-color: #555;
-    --post-title-color: black;
+    --post-title-color:#11346ef7;
+    --post-list-color: #11346ef7;
     --font-mono: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
     --font-robot-sans: "Roboto", sans-serif;
 }
 
-
-.dark-mode {
-    --bg-color-one: #4a4949;
-    --bg-color-two: #2b2b2b;
-    --text-color: #c5c5c5;
-    --post-title-color: #fc0i;
-    --post-title-color: #fc0i;
-}
 
 h1,
 h2,
@@ -49,6 +43,8 @@ body {
     background-color: var(--bg-color-two);
 }
 
+
+
 .container-full {
     width: 100%;
 }
@@ -62,43 +58,31 @@ body {
 
 
 header {
-    min-height: 60px;
-    background-color: var(--bg-color-one);
+    background-color: var(--bg-color-three);
 }
 
 .header-left {
     float: left;
-    padding-top: 15px;
+    padding: 3px 0;
 }
 
 .header-right {
     float:right;
     display: flex;
-    padding-top: 15px;
+    padding: 3px 0;
 }
 
 .logo a {
-    color: var(--post-title-color);
+    color: var(--post-list-color);
     text-decoration: none;
     padding: 5px;
     border-radius: 5px;
-    font-weight: bold;;
+    font-weight: bolder;
 }
 .logo a:hover {
     text-decoration: none;
 }
 
-.search-box {
-    padding-right: 20px;
-}
-.search-icon {
-    position: relative;
-    top:5px;
-    left:33px;
-    width: 30px;
-    height: 20px;
-    fill: var(--post-title-color);
-}
 
 .search-box input {
     padding: 6px 5px 5px 29px;
@@ -177,7 +161,7 @@ main {
     color: var(--text-color);
 }
 .post-list li h2 a {
-    color: var(--link-color);
+    color: var(--post-list-color);
     font-size: 26px;
     text-decoration: none;
     font-weight: 100;
@@ -186,6 +170,9 @@ main {
     text-decoration: underline;
 }
 
+#about-me, #evolution, #where-ive-worked, #licenses--certifications {
+    color: var(--post-list-color);
+}
 /* ----------------  sidebar ----------------  */
 
 .side-category {
@@ -193,8 +180,15 @@ main {
     padding: 5px 5px 16px 27px;
     margin-bottom: 50px;
     border-radius: 3px;
-    background-color: var(--bg-color-one);
+    background-color: var(--bg-color-two);
+    color: white;
     height: fit-content;
+}
+.side-category-title, .title-color-green {
+    color: var(--post-title-color);
+}
+.title-color-blue {
+    color: var(--post-list-color);
 }
 
 .side-category h4 {
@@ -208,7 +202,7 @@ main {
 }
 .side-category li a {
     text-decoration: none;
-    color: var(--link-color);
+    color: var(--post-list-color);
 }
 .side-category li a:hover {
     text-decoration: underline;
@@ -227,7 +221,7 @@ main {
     margin-top: 50px;
 }
 .pagination .previous {
-    background-color: var(--bg-color-one);
+    background-color: var(--bg-color-two);
     padding: 10px;
 
 }
@@ -240,17 +234,19 @@ main {
 
 /* ----------------  footer ----------------  */
 footer {
-    padding: 8px 0px;
+    padding: 2px 0px;
+    background-color: var(--bg-color-three);
 }
 
 .email-list  {
     display: inline-flex;
     gap: 10px;
     list-style: none;
+    font-size: 15px;
 }
 
 .email-list li a {
-    color: var(--blue-color);
+    color: var(--post-title-color);
     text-decoration: none;
 }
 
@@ -272,7 +268,7 @@ pre {
 }
 
 .post {
-    --link-color: #2a7ae2;
+
     margin-bottom: 25%;
 }
 .post-page {
@@ -283,15 +279,16 @@ pre {
     margin-bottom: 3%;
 }
 
-.dark-mode  .post {
-    --link-color: #fc0;
-}
-
 
 .post a {
-    color: var(--link-color);
+    color: var(--post-list-color);
     text-decoration: none;
 }
+
+.post-title a {
+    color: var(--post-title-color)
+}
+
 
 .post  a:hover {
     text-decoration: underline;

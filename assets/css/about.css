@@ -29,7 +29,7 @@
 
 .tab button.active {
     color: var(--text-color);
-    border-left: 3px solid var(--link-color);
+    border-left: 3px solid var(--post-list-color);
 }
 
 .tab-content {
@@ -57,7 +57,7 @@
     content: "▹";
     position: absolute;
     left: 0px;
-    color: var(--link-color);
+    color: var(--post-list-color);
 }
 
 .tech-used {
