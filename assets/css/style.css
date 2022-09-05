@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
 :root {
-    --bg-color-one: #f5f5f5;
+    --bg-color-one: #fafafa;
     --bg-color-two: #ffff;
     --text-color: #555;
     --post-title-color: black;
@@ -11,9 +11,9 @@
 
 
 .dark-mode {
-    --bg-color-one: #212121;
+    --bg-color-one: #4a4949;
     --bg-color-two: #2b2b2b;
-    --text-color: #c0c0c0;
+    --text-color: #c5c5c5;
     --post-title-color: #fc0i;
     --post-title-color: #fc0i;
 }
@@ -294,16 +294,12 @@ pre {
         width: 100%;
     }
 
-    . {
-        display: grid;
-    }
-
 }
 
 
 .post {
     --link-color: #2a7ae2;
-    margin-bottom: 30px;
+    margin-bottom: 25%;
 }
 
 .dark-mode  .post {
