@@ -25,12 +25,15 @@
 .tab button:hover {
     background-color: var(--bg-color-one);
     font-weight: 500;
+    color: white;
 }
 
 .tab button.active {
-    color: var(--text-color);
+    background-color: var(--bg-color-one);
     border-left: 3px solid var(--post-list-color);
+    color: white;
 }
+
 
 .tab-content {
     float: left;

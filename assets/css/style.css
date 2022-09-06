@@ -1,14 +1,12 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
 
 :root {
     --bg-color-one: #11346ef7;
-    --bg-color-two: white;
-    --bg-color-three: #e8efef;
+    --bg-color-two: #f1f8f8;
+    --bg-color-three: #5da26d;
     --text-color: #555;
     --post-title-color:#11346ef7;
     --post-list-color: #11346ef7;
-    --font-mono: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
-    --font-robot-sans: "Roboto", sans-serif;
+   
 }
 
 
@@ -28,8 +26,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    font-family: var(--font-robot-sans);
-    line-height: 1.7;
+    line-height: 1.5;
     font-size: larger;
     background-color: var(--bg-color-one);
     color: var(--text-color);
@@ -61,9 +58,15 @@ header {
     background-color: var(--bg-color-three);
 }
 
+header h3 {
+    border: 1px solid #11346ef7;
+    font-size: 20px;
+    padding: 1px 5px;
+}
+
 .header-left {
     float: left;
-    padding: 3px 0;
+    padding: 5px 0;
 }
 
 .header-right {
@@ -71,9 +74,12 @@ header {
     display: flex;
     padding: 3px 0;
 }
+.header-right a {
+    color:white;
+}
 
 .logo a {
-    color: var(--post-list-color);
+    color: white;
     text-decoration: none;
     padding: 5px;
     border-radius: 5px;
@@ -104,7 +110,8 @@ nav ul li {
     list-style: none;
 }
 nav ul li a {
-    font-size: 16px;
+    font-size: 17px;
+    font-weight: bold;
     padding-right: 20px;
     text-decoration: none;
     color: var(--text-color);
@@ -245,10 +252,13 @@ footer {
     font-size: 15px;
 }
 
-.email-list li a {
+
+.email-list a {
     color: var(--post-title-color);
     text-decoration: none;
+    font-weight: bold;
 }
+
 
 pre {
     word-break: break-all;
