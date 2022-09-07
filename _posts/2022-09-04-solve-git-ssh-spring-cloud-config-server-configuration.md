@@ -16,14 +16,12 @@ spring.cloud.config.server.git.uri=git@github.com:devbith/spring-cloud-example-p
 I encountered two issue<br>
 - `RSA key with SHA-1, which is no longer allowed` 
 - `invalid privatekey: [B@1324409e` issues. <br>
-
-
+<br>
 While following the log of the first issue `RSA key with SHA-1, which is no longer allowed` I found this article <a href="https://github.blog/2021-09-01-improving-git-protocol-security-github/ ">Improving Git protocol security on GitHub</a> and learn that, SHA-1 is weak, so Github has stopped allowing new RSA client keys to use SHA-1 signatures and require them to use SHA-2 signatures instead and it also highlights to use `rsa-sha2-256` and `rsa-sha2-512` which are supported by SHA-2 and for the second issue `invalid privatekey: [B@1324409e` after googling I read this article <a href="https://mkyong.com/java/jsch-invalid-privatekey-exception/">JSch – invalid privatekey exception</a> found that JSch doesn't support the `RSA` private key.
-
-
+<br>
 To solve both the issues, I had to generate the ssh key and convert `RSA` key to `PEM`
 
-
+<br>
 Generate new ssh key
 ```
 ssh-keygen -t ecdsa -b 521
@@ -33,7 +31,7 @@ Convert
 ```
 ssh-keygen -p -f ~/.ssh/id_rsa -m pem
 ```
-
+<br>
 After doing this, I added the new public key in the <a href="https://github.com/">github</a> and my spring-cloud-config project was able to fetch the properties from the git repository.
 
 
