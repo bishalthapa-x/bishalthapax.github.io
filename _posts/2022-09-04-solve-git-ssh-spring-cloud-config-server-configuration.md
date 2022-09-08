@@ -29,7 +29,7 @@ ssh-keygen -t ecdsa -b 521
 
 Convert
 ```
-ssh-keygen -p -f ~/.ssh/id_rsa -m pem
+ssh-keygen -p -f ~/.ssh/id_ecdsa -m pem
 ```
 <br>
 After doing this, I added the new public key in the <a href="https://github.com/">github</a> and my spring-cloud-config project was able to fetch the properties from the git repository.
