@@ -22,16 +22,11 @@ While following the log of the first issue `RSA key with SHA-1, which is no long
 To solve both the issues, I had to generate the ssh key and convert `RSA` key to `PEM`
 
 <br>
-Generate new ssh key
+Generate new ssh key 
 ```
-ssh-keygen -t ecdsa -b 521
+ssh-keygen -m pem -t ecdsa -b 521
 ```
 
-Convert
-```
-ssh-keygen -p -f ~/.ssh/id_ecdsa -m pem
-```
-<br>
 After doing this, I added the new public key in the <a href="https://github.com/">github</a> and my spring-cloud-config project was able to fetch the properties from the git repository.
 
 
