@@ -59,8 +59,7 @@ for his teaching and guidance.
             <li>Architected, implemented and integrated fron-end with combination GWT and Angular</li>
             <li>Integrated Single Sign-On (SSO) with Okta</li>
             <li>Wrote SQL queries and procedures for database schema manipulation and migration</li>
-            <li>Migrated logging library from Log4J to SL4J and Logback </li>
-            <li>Created automated deployment processes using Jenkins</li>
+            <li>Created automated deployment processes with Jenkins</li>
             <li>Participated in T4 level application support</li>
         </ul>
       <span class="tech-used">Worked with: Java, Javascript, Spring, J2EE, JPA-Hibernate, JMS, 
