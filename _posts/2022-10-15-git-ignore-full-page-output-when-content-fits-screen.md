@@ -6,7 +6,7 @@ categories: git
 ---
 
 Git by default make use of `less` pager to display the output of the commands like `git log`, `git diff` or `git branch`.
-<br><br>
+<br>
 Less pager is pretty good and efficient as it reads large file per page or per screen size without loading the full content in the main memory.
 I prefer not to view the full page output for commands like git log or git diffs when the content is less than full page.
 <br><br>
