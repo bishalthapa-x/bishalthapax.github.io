@@ -42,7 +42,7 @@ for his teaching and guidance.
         <ul>
          <li>Maintained and implemented PSD2 API</li>
         <li>Implemented different application requirements</li>
-        <li>Developed chrome exntension to speed internal teams day-to-day work</li>
+        <li>Developed chrome extension to speed internal teams day-to-day work</li>
          <li>Provided production support</li>
         </ul>
         <span class="tech-used">Worked with: Java, Javascript, Spring, Junit, Selenium, Docker, Kubernetes, Splunk, Argocd etc </span>
