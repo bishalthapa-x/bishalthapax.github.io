@@ -40,12 +40,12 @@ for his teaching and guidance.
             <p class="job-start-date">May 2021 - Present</p>
         </h4>
         <ul>
-         <li>Maintained and implemented PSD2 API of several EU banks</li>
+         <li>Maintained and implemented PSD2 API</li>
         <li>Implemented different application requirements</li>
         <li>Developed chrome exntension to speed internal teams day-to-day work</li>
-         <li>Provided support to obsolete application</li>
+         <li>Provided production support</li>
         </ul>
-        <span class="tech-used">Worked with: Java, Javascript, Spring, Junit, Selenium, Docker, Splunk </span>
+        <span class="tech-used">Worked with: Java, Javascript, Spring, Junit, Selenium, Docker, Kubernetes, Splunk, Argocd etc </span>
     </div>
 
     <div id="Alpega" class="tab-content">
