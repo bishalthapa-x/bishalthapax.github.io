@@ -16,11 +16,11 @@ time, I do R&D with different programming language, frameworks and tools.
 ### Evolution
 
 <br />
-I was born in Nepal, grew up in a small and beautiful town Damauli. I got introduce to computer programming
-[BASIC](https://en.wikipedia.org/wiki/BASIC) when I was in school and that was the point where I decided to 
-be a software developer. During my school and college, I took a private programming lesson with a professional 
-software engineer [Vikram Thapa](https://www.linkedin.com/in/vikram-thapa-87677a191/). With all my heart, I am very grateful 🙏
-for his teaching and guidance.
+I was born in Nepal, grew up in a small and beautiful town Damauli. I started my developer journey from school by building websites 
+for small organization in my home town. After my school, I got opportunity to learn more about software development with  
+software engineer [Vikram Thapa](https://www.linkedin.com/in/vikram-thapa-87677a191/), with all my heart, I am very grateful 🙏
+for his teaching and guidance. Later, I moved to Kathmandu (capital of Nepal) for my further study where I got my first dream job in the 
+company Softhover. 
 <br /><br /><br />
 
 ### Where I’ve Worked
