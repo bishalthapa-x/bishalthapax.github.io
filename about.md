@@ -20,7 +20,7 @@ I was born in Nepal, grew up in a small and beautiful town Damauli. I started my
 for small organization in my home town. After my school, I got opportunity to learn more about software development with  
 software engineer [Vikram Thapa](https://www.linkedin.com/in/vikram-thapa-87677a191/), with all my heart, I am very grateful 🙏
 for his teaching and guidance. Later, I moved to Kathmandu (capital of Nepal) for my further study where I got my first dream job in the 
-company Softhover. 
+company Softhover. You can read more about my work expereince below.
 <br /><br /><br />
 
 ### Where I’ve Worked
