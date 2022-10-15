@@ -5,13 +5,11 @@ title: About
 <link href="{{site.url}}/assets/css/about.css" rel="stylesheet"/>
 
 ## About Me
-<br />
 I'm Bishal. I am into software development since 2017. Currenlty, I am working as
 a consultant for [PrimeIT](https://www.primeit.pt/) in Portugal. I love to work in different aspects software design & development. I am constantly in the motion to learn and improve skills and knowledge. 
 <br /><br /><br />
 
 ### Evolution
-<br />
 I was born in Nepal, grew up in a small beautiful town Damauli. I started my developer journey early in school building websites 
 for small organization in my home town. After my school, I got opportunity to learn more of software development and technology with  
 software engineer [Vikram Thapa](https://www.linkedin.com/in/vikram-thapa-87677a191/) individually. I am very grateful 🙏
