@@ -14,7 +14,7 @@ a consultant for [PrimeIT](https://www.primeit.pt/) in Portugal. I love to work 
 ### Evolution
 
 <br />
-I was born in Nepal, grew up in a small beautiful town Damauli. I started my developer journey early in school developing websites 
+I was born in Nepal, grew up in a small beautiful town Damauli. I started my developer journey early in school building websites 
 for small organization in my home town. After my school, I got opportunity to learn more of software development with  
 software engineer [Vikram Thapa](https://www.linkedin.com/in/vikram-thapa-87677a191/) individually. I am very grateful 🙏
 for [Vikram Thapa](https://www.linkedin.com/in/vikram-thapa-87677a191/) teaching and guidance. Later, I moved to Kathmandu (capital of Nepal) for my further study where I got my first dream job in the 
