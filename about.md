@@ -6,7 +6,7 @@ title: About
 
 ## About Me
 I'm Bishal. I am into software development since 2017. Currenlty, I am working as
-a consultant for [PrimeIT](https://www.primeit.pt/) in Portugal. I love to work in different aspects software design & development. I am constantly in the motion to learn and improve skills and knowledge. 
+consultant for [PrimeIT](https://www.primeit.pt/) in Portugal. I love to work in different aspects software design & development. I am constantly in the motion to learn and improve skills and knowledge. 
 <br /><br /><br />
 
 ### Evolution
