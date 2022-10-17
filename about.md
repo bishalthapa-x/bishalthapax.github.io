@@ -5,8 +5,7 @@ title: About
 <link href="{{site.url}}/assets/css/about.css" rel="stylesheet"/>
 
 ## About Me
-I'm Bishal. I am into software development since 2017. Currenlty, I am working as
-consultant for [PrimeIT](https://www.primeit.pt/) in Portugal. I love to work in different aspects software design & development. I am constantly in the motion to learn and improve skills and knowledge. 
+I'm Bishal Thapa. I am actively into software industry since 2017. I am very much passionate about REST architecture, microservices, cloud computing, and different aspects of software design and development. I am constantly in the motion to learn and improve skills and knowledge. I am also making some effort to write, share and keep track of thing what I learn or went through in this blog.`  
 <br /><br /><br />
 
 ### Evolution
