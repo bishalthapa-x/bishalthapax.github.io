@@ -5,7 +5,7 @@ title: About
 <link href="{{site.url}}/assets/css/about.css" rel="stylesheet"/>
 
 ## About Me
-I'm Bishal Thapa. I am actively into software industry since 2017. I am very much passionate about REST architecture, microservices, cloud computing, and different aspects of software design and development. I am constantly in the motion to learn and improve skills and knowledge. I am also making some effort to write, share and keep track of thing what I learn or went through.`  
+I'm Bishal Thapa. I am actively into software industry since 2017. I am very much passionate about REST architecture, microservices, cloud computing, and different aspects of software design and development. I am constantly in the motion to learn and improve skills and knowledge. I am also making some effort to write, share and keep track of thing what I learn or went through.
 <br /><br /><br />
 
 ### Evolution
