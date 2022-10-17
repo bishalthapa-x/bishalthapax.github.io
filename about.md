@@ -34,7 +34,7 @@ for [Vikram Thapa](https://www.linkedin.com/in/vikram-thapa-87677a191/) teaching
             <p class="job-start-date">May 2021 - Present</p>
         </h4>
         <ul>
-         <li>Maintained and implemented PSD2 API</li>
+         <li>Maintained PSD2 API</li>
         <li>Implemented different application requirements</li>
         <li>Developed chrome extension to speed internal teams day-to-day work</li>
          <li>Provided production support</li>
