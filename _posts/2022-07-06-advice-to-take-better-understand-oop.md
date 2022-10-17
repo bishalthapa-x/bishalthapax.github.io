@@ -1,7 +1,7 @@
 ---
 layout: post    
 title:  "Advice To Take - Better Understand OOP"
-date:   2019-07-06 09:23:42 +0100
+date:   2022-07-06 09:23:42 +0100
 categories: oop
 ---
 
