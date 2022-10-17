@@ -1,7 +1,7 @@
 ---
 layout: post    
 title:  "Advice To Take - Better Understand OOP"
-date:   2019-12-06 09:23:42 +0100
+date:   2019-07-06 09:23:42 +0100
 categories: oop
 ---
 
@@ -15,11 +15,6 @@ scalable and maintainable code. To achieve that he/she must have good knowledge 
 The basic concept of OOP are encapsulation, inheritance, abstraction and polymorphism.
 <br/><br/>
 
- In object-oriented languages like Java, C#, C++ we create an object from a class. A class is a structure or blueprint for an object. 
- If the structure of the class is not good then it can create a difficult situation in an application. The strength of an application 
- depends on its oop design. To write well-designed and structured class we should first have a better understanding of OOP. 
-
-<br/><br/>
 
  I still remember, my mentor Vikram Thapa advise, To be a good developer, one should have to better understanding of OOP but on those days I
  tied myself with framework but never tried to understand them better. Everyone learns from experience. By the time, I have understood
@@ -27,4 +22,8 @@ The basic concept of OOP are encapsulation, inheritance, abstraction and polymor
  The core of object-oriented languages is the OOP principle so I always keep try to understand them better and still revise.
 
 
+<br/>
+ In object-oriented languages like Java, C#, C++ we create an object from a class. A class is a structure or blueprint for an object. 
+ If the structure of the class is not good then it can create a difficult situation in an application. The strength of an application 
+ depends on its oop design. To write well-designed and structured class we should first have a better understanding of OOP. 
 
