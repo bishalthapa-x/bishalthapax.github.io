@@ -14,7 +14,7 @@ for small organization in my home town.
 
 After my school, I got opportunity to learn more of software development and technology with  
 software engineer [Vikram Thapa](https://www.linkedin.com/in/vikram-thapa-87677a191/) individually. I am very grateful 🙏
-for [Vikram Thapa](https://www.linkedin.com/in/vikram-thapa-87677a191/) teaching and guidance. I also got opportunity assist him at <a href="">Infinite Tech Solution</a>. Later, I moved to Kathmandu (capital of Nepal) for my further study where I found my dream job at <a href="https://www.linkedin.com/company/softhover/about/">Softhover</a> and more about my work expereince are below 😉.
+for [Vikram Thapa](https://www.linkedin.com/in/vikram-thapa-87677a191/) teaching and guidance. I also got opportunity to assist him at <a href="">Infinite Tech Solution</a>. Later, I moved to Kathmandu (capital of Nepal) for my further study where I found my dream job at <a href="https://www.linkedin.com/company/softhover/about/">Softhover</a> and more about my work expereince are below 😉.
 <br /><br /><br />
 
 ### Where I’ve Worked
