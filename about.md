@@ -1,5 +1,7 @@
 ---
 layout: home
+image:
+ path: /assets/images/bishal_thapa.jpeg
 title: About Bishal Thapa
 ---
 <link href="{{site.url}}/assets/css/about.css" rel="stylesheet"/>
