@@ -18,15 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Dev | Bishal Thapa
-email: dev.bith@gmail.com
+title: Bishal Thapa | Software Developer
+email: bishalthapa.info.np@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
- My name is Bishal Thapa. I am passionate about Software Development. I write about programming, software development, tech tools, tips and tricks.
- I love to read, write, travel and spend quality time with my friends and family.
+Bishal Thapa is passionate software developer. He loves problem solving and new technologies. Most recently, he is enjoying REST architecture, micro-services and cloud computing.
 
 baseurl: ""
-url: "https://thapabishal.github.io"
-liveUrl: "https://thapabishal.github.io"
+url: "https://bishalthapa.info.np/"
+liveUrl: "https://bishalthapa.info.np/"
 twitter_username: _bishalthapa
 github_username:  thapabishal
 
