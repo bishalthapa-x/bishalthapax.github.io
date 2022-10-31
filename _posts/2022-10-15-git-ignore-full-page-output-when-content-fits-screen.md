@@ -2,6 +2,10 @@
 layout: post    
 title:  "Git Ignore Full Page Output When Content Fits Screen"
 date:   2022-10-15 05:28:21 +0100
+image:
+  path: /assets/images/post/2022-10/git-pager.gif
+  width: 640
+  height: 480
 categories: git 
 ---
 
