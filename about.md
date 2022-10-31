@@ -1,6 +1,6 @@
 ---
 layout: home
-title: About 
+title: About Bishal Thapa
 ---
 <link href="{{site.url}}/assets/css/about.css" rel="stylesheet"/>
 
