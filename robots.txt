@@ -1,3 +1,4 @@
 User-agent: *
-Disallow:
-Sitemap: https://devbith.github.io/sitemap.xml
+Disallow: /cdn-cgi/*
+
+Sitemap: https://bishalthapa.info.np/sitemap.xml
