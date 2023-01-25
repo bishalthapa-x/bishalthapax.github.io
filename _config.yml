@@ -19,13 +19,13 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Bishal Thapa | Software Developer
-email: bishalthapa.info.np@gmail.com
+email: dev.bith@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
    Bishal Thapa is passionate software developer. He loves problem solving and new technologies. Most recently, he is enjoying REST architecture, micro-services and cloud computing.
 
 baseurl: ""
-url: "https://bishalthapa.info.np"
-liveUrl: "https://bishalthapa.info.np"
+url: "https://devbith.github.io"
+liveUrl: "https://devbith.github.io"
 twitter_username: _bishalthapa
 github_username:  thapabishal
 
