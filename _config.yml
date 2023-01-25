@@ -26,8 +26,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: "https://devbith.github.io"
 liveUrl: "https://devbith.github.io"
-twitter_username: _bishalthapa
-github_username:  thapabishal
+twitter_username: devbith
+github_username:  devbith
 
 # Build settings
 plugins:
