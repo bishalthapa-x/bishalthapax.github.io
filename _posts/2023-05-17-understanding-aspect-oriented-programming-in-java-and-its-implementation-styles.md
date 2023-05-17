@@ -3,7 +3,7 @@ layout: post
 title:  "Understanding Aspect-oriented Programming in Java and its implementation styles "
 date:   2023-50-17 10:32:21 +0100
 image:
-  path: /assets/images/post/2022-10/git-pager.gif
+  path: /assets/images/post/2023-05/aop-programming-styles.png
   width: 640
   height: 480
 categories: spring, aop 
