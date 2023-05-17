@@ -6,3 +6,8 @@
 .main-section {
   width:100%;
 }
+
+img {
+  height: auto!important;
+  width: 100%!important;
+}
