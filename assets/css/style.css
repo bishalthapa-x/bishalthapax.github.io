@@ -5,7 +5,7 @@
   --bg-color-three: #EBE4FF;
   --text-color: #36344d;
   --post-title-color: #673de6;
-  --post-list-color: #673de6;
+  --post-list-color: #35245b;
   --font-mono: 'Fira Code', Monaco, Consolas, Ubuntu Mono, monospace;
   --font-serif: 'Fira Code', Monaco, Consolas, Ubuntu Mono, monospace;
   --font-sans-serif: 'Fira Code', Monaco, Consolas, Ubuntu Mono, monospace;
@@ -194,6 +194,7 @@ main {
 
 .read-more {
   padding:5px 2px;
+  font-weight: 5600;
 }
 .read-more:hover {
   color: #673de6;
@@ -318,7 +319,7 @@ pre {
 }
 
 .post a {
-  color: var(--post-list-color);
+  color: #673de6!important;
   text-decoration: none;
 }
 
