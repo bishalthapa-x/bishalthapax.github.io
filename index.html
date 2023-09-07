@@ -5,34 +5,40 @@ title: Bishal Thapa | Software Developer
 
 
 <ul class="post-list">
-    {% for post in paginator.posts %}
-        <li>
-            <article>
-                <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-            </article>
-        </li>
-    {% endfor %}
+  {% for post in paginator.posts %}
+  <li>
+    <article>
+      <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span> |
+      <span class="reading-time" title="Estimated read time">
+          {% assign words = post.content | strip_html | number_of_words %}
+          {{ words | divided_by: 180 | plus: 1 }} min read
+     </span>
+      {{ post.content | truncatewords: 50 }}
+    </article>
+    <a class="read-more"href="{{ post.url }}">Read more → </a>
+  </li>
+  {% endfor %}
 </ul>
 
 
 <!-- Pagination links -->
 <div class="pagination">
-    {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">
-        Previous
-    </a>
-    {% else %}
-    <span class="previous">Previous</span>
-    {% endif %}
-    <span class="page_number ">
+  {% if paginator.previous_page %}
+  <a href="{{ paginator.previous_page_path }}" class="previous">
+    Previous
+  </a>
+  {% else %}
+  <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">
     Page: {{ paginator.page }} of {{ paginator.total_pages }}
   </span>
-    {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-    {% else %}
-    <span class="next ">Next</span>
-    {% endif %}
+  {% if paginator.next_page %}
+  <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+  <span class="next ">Next</span>
+  {% endif %}
 </div>
 
 

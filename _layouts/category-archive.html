@@ -5,12 +5,12 @@
 
 <div class="main-container bg-color-two ">
     <main class="container">
-        <div class="main-section post">
+        <div class="main-section post posts-of">
             <h2 class="title-color-green">Posts of {{ page.type }} </h2>
             <ul style="padding: 15px">
                 {% for post in site.categories[page.type] %}
                 <li style="padding: 3px">
-                    <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+                    <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}:</span>
                     <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
                 </li>
                 {% endfor %}

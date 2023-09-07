@@ -1,25 +1,28 @@
 ---
 layout: home
 image:
- path: /assets/images/bishal_thapa.jpeg
+  path: /assets/images/bishal_thapa.jpeg
 title: About Bishal Thapa
 ---
+
 <link href="{{site.url}}/assets/css/about.css" rel="stylesheet"/>
 
-## About Me
-I'm Bishal Thapa. I am actively into software industry since 2017. I am very much passionate about REST architecture, microservices, cloud computing, and different aspects of software design and development. I am constantly in the motion to learn and improve skills and knowledge. I am also making effort to write, share and keep track of thing what I learn or went through.
+<b style="color:#673de6"> About Me </b>
+
+I’m Bishal Thapa a passionate technologist adept at addressing client needs and demands. My interest span is wide but primarily I use Java
+and Javascript on Linux and Unix platforms, with a focus on REST architecture, microservices, and cloud computing. Committed to continuous
+learning and skill refinement.
 <br /><br /><br />
 
-### Evolution
-I was born in Nepal, grew up in a small beautiful town Damauli. I started my developer journey early in school building websites 
-for small organization in my home town.
+<b style="color:#673de6"> Evolution</b>
 
-After my school, I got opportunity to learn more of software development and technology with  
-software engineer [Vikram Thapa](https://www.linkedin.com/in/vikram-thapa-87677a191/) individually. I am very grateful 🙏
-for [Vikram Thapa](https://www.linkedin.com/in/vikram-thapa-87677a191/) teaching and guidance. I also got opportunity to assist him at <a href="">Infinite Tech Solution</a>. Later, I moved to Kathmandu (capital of Nepal) for my further study where I found my dream job at <a href="https://www.linkedin.com/company/softhover/about/">Softhover</a> and more about my work expereince are below 😉.
-<br /><br /><br />
+Born in Nepal and raised in the lovely town of Damauli, my journey into software engineering began during my school years under the
+mentorship of the exceptional software engineer, <a href="https://www.linkedin.com/in/vikram-thapa-87677a191">Vikram Thapa</a>
 
-### Where I’ve Worked
+<br /><br /><br/>
+
+<b style="color:#673de6"> Organizational Work Experience  </b>
+
 <br />
 <div class="work-timeline">
     <div class="tab">
@@ -27,7 +30,6 @@ for [Vikram Thapa](https://www.linkedin.com/in/vikram-thapa-87677a191/) teaching
       <button class="tab-links" onclick="showTabContent(event, 'Alpega')">Alpega</button>
       <button class="tab-links" onclick="showTabContent(event, 'Softhover')">Softhover</button>
     </div>
-
 
     <div id="Trustly" class="tab-content">
         <h4 class="job-title">
@@ -77,11 +79,11 @@ for [Vikram Thapa](https://www.linkedin.com/in/vikram-thapa-87677a191/) teaching
      <span class="tech-used">Worked with: Java, Javascript, Spring, Hibernate, Tomcat, 
             MY-SQL, React </span>
     </div>
-    
+
 </div>
 <br /> <br />
-
-### Licenses & certifications
+<b style="color:#673de6"> Licenses & certifications</b>
+<br />
 <br />
 <ul class="certification">
     <li> 
@@ -96,12 +98,12 @@ for [Vikram Thapa](https://www.linkedin.com/in/vikram-thapa-87677a191/) teaching
         </a>
 </div>
     </li>
- 
+
     <li> 
         <img  src="{{site.url}}/assets/images/cn-logo-dark-9824.svg" alt="Coding Ninjas" class="coding-ninja-logo">
         <a href="https://certificate.codingninjas.com/verify/ee24b670d15d3738/">Data Structures in JAVA</a>
     </li>
-   
+
 </ul>
 
 
