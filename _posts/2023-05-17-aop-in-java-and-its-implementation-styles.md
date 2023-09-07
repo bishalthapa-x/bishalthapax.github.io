@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AOP in Java and implementation styles "
+title: "AOP in Java and Implementation Styles "
 date: 2023-05-17 10:32:21 +0100
 image:
   path: /assets/images/post/2023-05/aop-programming-styles.png
