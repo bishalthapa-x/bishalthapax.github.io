@@ -328,16 +328,11 @@ pre {
   font-family: var(--font-sans-serif);
 }
 
-.posts-of .post-date {
-  color: #673de6!important;
-}
-
 .post a:hover {
   text-decoration: underline;
 }
 
-
-code {
+ode {
   border-radius: 5px;
   padding: 0px 1px;
 }
