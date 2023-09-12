@@ -24,8 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
    Bishal Thapa is passionate software developer. He loves problem solving and new technologies. Most recently, he is enjoying REST architecture, micro-services and cloud computing.
 
 baseurl: ""
-url: "https://bishalthapa.info.np"
-liveUrl: "https://bishalthapa.info.np"
+url: "https://bishal.com.np"
+liveUrl: "https://bishal.com.np"
 twitter_username: bishalthapa_x
 github_username:  bishalthapa-x
 
