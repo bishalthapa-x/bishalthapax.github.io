@@ -316,8 +316,9 @@ pre {
   color: #673de6!important;
   background-color: #EBE4FF;
   margin:0 3px;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 13px;
+  padding:3px;
 }
 
 .post a {
