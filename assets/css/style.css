@@ -301,6 +301,8 @@ pre {
 }
 
 .post-page {
+  border: 1px solid;
+  padding: 11px;
   margin-top: 2%;
 }
 
