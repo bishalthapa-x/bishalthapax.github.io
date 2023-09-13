@@ -19,15 +19,15 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Bishal Thapa - Senior Software Developer
-email: bishalth.x@gmail.com
+email: dev.bith@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
    Bishal Thapa is a Senior Software Developer with a broad range of interests in the tech world, primarily focused on software engineering.
 
 baseurl: ""
 url: "https://bishal.com.np"
 liveUrl: "https://bishal.com.np"
-twitter_username: bishalthapa_x
-github_username:  bishalthapa-x
+twitter_username: devbith
+github_username: devbith
 
 # Build settings
 plugins:
