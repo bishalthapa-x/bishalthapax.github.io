@@ -1,51 +1,29 @@
 ---
 layout: home
-title: Bishal Thapa - Senior Software Developer
-description: Bishal Thapa is a Senior Software Developer with a broad range of interests in the tech world, primarily focused on software engineering.
 image:
-  path: /assets/images/about/bishal_thapa.png
+path: /assets/images/bishal_thapa.jpeg
+title: Bishal Thapa - Senior Software Developer
 ---
 
+<div>
+  <div class="header">
+    <h1 class=""> Bishal Thapa</h1>
+    <a href="mailto:dev.bith@gmail.com">dev.bith@gmail.com</a> |
+    <a href="https://www.linkedin.com/in/thebishalthapa/">Linkedin</a>
+  </div>
+  <br> <br><br>
+  <h3>About </h3>
+  <p>Tech enthusiast fueled by a passion for continous learning and creativity. My interest span is wide but primarily
+    do software development on Linux and Unix machine, with a focus on REST architecture, microservices, and cloud computing. Additionally,
+    beyond the realms of software engineering, electronics is my cherished hobby. I derive immense joy from experimenting with MCUs and
+    tinkering with embedded tools like Raspberry Pi, BeagleBone Black, and Arduino.</p>
 
-<ul class="post-list">
-  {% for post in paginator.posts %}
-  <li>
-    <article>
-      <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span> |
-      <span class="reading-time" title="Estimated read time">
-          {% assign words = post.content | strip_html | number_of_words %}
-          {{ words | divided_by: 180 | plus: 1 }} min read
-     </span>
-      {{ post.content | truncatewords: 50 }}
-    </article>
-    <a class="read-more"href="{{ post.url }}">Read more → </a>
-  </li>
-  {% endfor %}
-</ul>
+  <br><br>
+  <h3>Evolution</h3>
+  <p> Born in Nepal and raised in the lovely town of Damauli, my journey into software engineering and electronic began during my school
+    years
+    under the
+    mentorship of <a href="https://www.linkedin.com/in/vikram-thapa-87677a191">Vikram Thapa</a>.</p>
 
 
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-  <a href="{{ paginator.previous_page_path }}" class="previous">
-    Previous
-  </a>
-  {% else %}
-  <span class="previous">Previous</span>
-  {% endif %}
-  <span class="page_number ">
-    Page: {{ paginator.page }} of {{ paginator.total_pages }}
-  </span>
-  {% if paginator.next_page %}
-  <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-  {% else %}
-  <span class="next ">Next</span>
-  {% endif %}
 </div>
-
-
-
-
-
-
