@@ -18,7 +18,7 @@ h1, h2, h3, h4, ul, p {
 
 body {
   margin: 0px;
-  padding: 0px;
+  padding: 5px;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -26,7 +26,6 @@ body {
   background-color: var(--bg-color-one);
   color: var(--text-color);
   font-family: 'Fira Code', Monaco, Consolas, Ubuntu Mono, monospace;
-  padding:20px;
 }
 
 .container-full {
